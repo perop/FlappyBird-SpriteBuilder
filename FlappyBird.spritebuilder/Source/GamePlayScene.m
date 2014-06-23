@@ -32,4 +32,11 @@
 
 }
 
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    [character flap];
+    
+}
+
+
 @end
