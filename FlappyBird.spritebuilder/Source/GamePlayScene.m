@@ -19,7 +19,7 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    timeSinceObstacle += deltbua;
+    timeSinceObstacle += delta;
     if (timeSinceObstacle > 2.0f)
     {
         // Add a new obstacle
